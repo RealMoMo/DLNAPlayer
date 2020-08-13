@@ -36,15 +36,6 @@
         android:theme="@style/AppTheme"
         >
 
-        <meta-data
-            android:name="UMENG_APPKEY"
-            android:value="579df54a67e58e15e10028a0" >
-        </meta-data>
-
-        <meta-data
-            android:name="UMENG_CHANNEL"
-            android:value="Umeng" >
-        </meta-data>
 
        <meta-data
             android:name="com.geniusgithub.mediaplayer.component.MyGlideModule"

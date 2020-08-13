@@ -24,7 +24,6 @@ import android.os.Handler;
 import com.geniusgithub.mediaplayer.component.CacheManager;
 import com.geniusgithub.mediaplayer.dlna.control.AllShareProxy;
 import com.geniusgithub.mediaplayer.util.AlwaysLog;
-import com.umeng.analytics.MobclickAgent;
 
 import java.util.HashMap;
 
@@ -86,7 +85,6 @@ public class AllShareApplication extends Application implements AllShareProxy.IE
 		mHandle = new Handler() {
 		};
 
-		MobclickAgent.setDebugMode(true);
 
 	}
 
@@ -121,12 +119,10 @@ public class AllShareApplication extends Application implements AllShareProxy.IE
 	}
 	
 	public static void onPause(Activity context){
-		MobclickAgent.onPause(context);
 
 	}
 	
 	public static void onResume(Activity context){
-		MobclickAgent.onResume(context);
 
 	}
 	
