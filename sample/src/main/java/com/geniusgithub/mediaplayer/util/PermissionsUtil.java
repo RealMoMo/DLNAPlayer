@@ -53,8 +53,9 @@ public class PermissionsUtil {
         return android.os.Build.VERSION.SDK_INT;
     }
 
-    public static String[] sRequiredPermissions = new String[] {  STORAGE, MICROPHONE, PHONE};
-    
+//    public static String[] sRequiredPermissions = new String[] {  STORAGE, MICROPHONE};
+    public static String[] sRequiredPermissions = new String[] {  STORAGE};
+
 
 
     public static boolean hasPhonePermissions(Context context) {

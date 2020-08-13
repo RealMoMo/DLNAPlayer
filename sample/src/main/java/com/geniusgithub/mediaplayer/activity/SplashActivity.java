@@ -84,8 +84,7 @@ public class SplashActivity extends BaseActivity {
 	}
 
 	private final int REQUEST_STORAGE_PERMISSION =  0X0001;
-	private final int REQUEST_AUDIORECORD_PERMISSION =  0X0002;
-	private final int REQUEST_PHONE_PERMISSION =  0X0003;
+
 	private void requestNecessaryRequiredPermissions(){
 		requestSpecialPermissions(PermissionsUtil.STORAGE, REQUEST_STORAGE_PERMISSION);
 	}
@@ -104,12 +103,6 @@ public class SplashActivity extends BaseActivity {
 			case REQUEST_STORAGE_PERMISSION:
 				doStoragePermission(grantResults);
 				break;
-			case REQUEST_AUDIORECORD_PERMISSION:
-				doAudioRecordPermission(grantResults);
-				break;
-			case REQUEST_PHONE_PERMISSION:
-				doPhonePermission(grantResults);
-				break;
 			default:
 				super.onRequestPermissionsResult(requestCode, permissions, grantResults);
 				break;
@@ -125,35 +118,12 @@ public class SplashActivity extends BaseActivity {
 			dialog.show();
 		}else if (grantResults[0] == PackageManager.PERMISSION_GRANTED){
 			AlwaysLog.i(TAG, "doStoragePermission, is granted!!!" );
-			requestSpecialPermissions(PermissionsUtil.MICROPHONE, REQUEST_AUDIORECORD_PERMISSION);
-		}
-
-	}
-
-	private void doAudioRecordPermission(int[] grantResults){
-		if (grantResults[0] == PackageManager.PERMISSION_DENIED){
-			AlwaysLog.e(TAG, "doAudioRecordPermission is denied!!!" );
-			Dialog dialog = PermissionsUtil.createPermissionSettingDialog(this, "录音权限");
-			dialog.show();
-		}else if (grantResults[0] == PackageManager.PERMISSION_GRANTED){
-			AlwaysLog.i(TAG, "doAudioRecordPermission, is granted!!!" );
-			requestSpecialPermissions(PermissionsUtil.PHONE, REQUEST_PHONE_PERMISSION);
-		}
-
-	}
-
-	private void doPhonePermission(int[] grantResults){
-		if (grantResults[0] == PackageManager.PERMISSION_DENIED){
-			AlwaysLog.e(TAG, "doPhonePermission is denied!!!" );
-			Dialog dialog = PermissionsUtil.createPermissionSettingDialog(this, "读电话权限");
-			dialog.show();
-		}else if (grantResults[0] == PackageManager.PERMISSION_GRANTED){
-			AlwaysLog.i(TAG, "doPhonePermission, is granted!!!" );
 			goMainActivity();
-
 		}
 
 	}
+
+
 
 
 }

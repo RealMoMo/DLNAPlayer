@@ -22,7 +22,6 @@ import android.view.MenuItem;
 import android.view.View;
 
 import com.geniusgithub.mediaplayer.R;
-import com.geniusgithub.mediaplayer.activity.AboutActivity;
 import com.geniusgithub.mediaplayer.base.BaseActivity;
 import com.geniusgithub.mediaplayer.component.IToolBar;
 import com.geniusgithub.mediaplayer.component.ToolEntry;
@@ -94,7 +93,7 @@ public class MainFrameActivity extends BaseActivity{
                 mMainView.toggleDrawLayout();
                 return true;
             case R.id.item_setting:
-                goAboutActivity();
+
                 return true;
         }
 
@@ -111,11 +110,7 @@ public class MainFrameActivity extends BaseActivity{
     }
 
 
-    private void goAboutActivity(){
-        Intent intent = new Intent();
-        intent.setClass(this, AboutActivity.class);
-        startActivity(intent);
-    }
+
 
 
 
