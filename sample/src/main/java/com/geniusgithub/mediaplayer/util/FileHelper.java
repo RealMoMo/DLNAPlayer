@@ -1,4 +1,4 @@
-package com.geniusgithub.common.util;
+package com.geniusgithub.mediaplayer.util;
 
 import java.io.File;
 

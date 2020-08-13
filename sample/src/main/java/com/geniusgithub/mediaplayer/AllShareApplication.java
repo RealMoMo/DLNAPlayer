@@ -21,9 +21,9 @@ import android.app.Application;
 import android.content.Context;
 import android.os.Handler;
 
-import com.geniusgithub.common.util.AlwaysLog;
 import com.geniusgithub.mediaplayer.component.CacheManager;
 import com.geniusgithub.mediaplayer.dlna.control.AllShareProxy;
+import com.geniusgithub.mediaplayer.util.AlwaysLog;
 import com.umeng.analytics.MobclickAgent;
 
 import java.util.HashMap;

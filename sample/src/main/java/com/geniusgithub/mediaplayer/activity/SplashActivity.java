@@ -6,11 +6,11 @@ import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.os.Handler;
 
-import com.geniusgithub.common.util.AlwaysLog;
 import com.geniusgithub.mediaplayer.AllShareApplication;
 import com.geniusgithub.mediaplayer.R;
 import com.geniusgithub.mediaplayer.base.BaseActivity;
 import com.geniusgithub.mediaplayer.main.MainFrameActivity;
+import com.geniusgithub.mediaplayer.util.AlwaysLog;
 import com.geniusgithub.mediaplayer.util.PermissionsUtil;
 
 import butterknife.ButterKnife;

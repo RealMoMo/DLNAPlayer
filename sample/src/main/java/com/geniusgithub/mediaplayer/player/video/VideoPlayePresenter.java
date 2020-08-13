@@ -9,8 +9,7 @@ import android.view.MotionEvent;
 import android.view.SurfaceHolder;
 import android.widget.SeekBar;
 
-import com.geniusgithub.common.util.AlwaysLog;
-import com.geniusgithub.common.util.CommonUtil;
+
 import com.geniusgithub.mediaplayer.component.MediaItemFactory;
 import com.geniusgithub.mediaplayer.component.MediaManager;
 import com.geniusgithub.mediaplayer.dlna.control.model.MediaItem;
@@ -19,6 +18,8 @@ import com.geniusgithub.mediaplayer.player.CheckDelayTimer;
 import com.geniusgithub.mediaplayer.player.SingleSecondTimer;
 import com.geniusgithub.mediaplayer.player.base.MediaItemPlayList;
 import com.geniusgithub.mediaplayer.player.base.PlayStateCallback;
+import com.geniusgithub.mediaplayer.util.AlwaysLog;
+import com.geniusgithub.mediaplayer.util.CommonUtil;
 
 
 public class VideoPlayePresenter implements  VideoPlayerContact.IPresenter{

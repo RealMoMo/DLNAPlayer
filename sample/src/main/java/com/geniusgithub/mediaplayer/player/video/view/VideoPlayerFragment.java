@@ -19,13 +19,13 @@ import android.widget.Toast;
 
 import androidx.annotation.Nullable;
 
-import com.geniusgithub.common.util.AlwaysLog;
 import com.geniusgithub.mediaplayer.R;
 import com.geniusgithub.mediaplayer.base.BaseFragment;
 import com.geniusgithub.mediaplayer.dlna.control.model.MediaItem;
 import com.geniusgithub.mediaplayer.dlna.util.TimeUtil;
 import com.geniusgithub.mediaplayer.player.video.VideoPlayePresenter;
 import com.geniusgithub.mediaplayer.player.video.VideoPlayerContact;
+import com.geniusgithub.mediaplayer.util.AlwaysLog;
 
 
 import butterknife.BindView;

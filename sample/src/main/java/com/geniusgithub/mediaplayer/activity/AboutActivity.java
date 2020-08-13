@@ -8,9 +8,9 @@ import android.widget.TextView;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.widget.Toolbar;
 
-import com.geniusgithub.common.util.CommonUtil;
 import com.geniusgithub.mediaplayer.R;
 import com.geniusgithub.mediaplayer.base.BaseActivity;
+import com.geniusgithub.mediaplayer.util.CommonUtil;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

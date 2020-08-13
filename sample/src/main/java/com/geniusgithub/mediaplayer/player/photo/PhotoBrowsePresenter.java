@@ -5,13 +5,13 @@ import android.content.Intent;
 import android.os.Handler;
 import android.os.Message;
 
-import com.geniusgithub.common.util.AlwaysLog;
 import com.geniusgithub.mediaplayer.component.CacheManager;
 import com.geniusgithub.mediaplayer.component.MediaItemFactory;
 import com.geniusgithub.mediaplayer.component.MediaManager;
 import com.geniusgithub.mediaplayer.dlna.control.model.MediaItem;
 import com.geniusgithub.mediaplayer.player.AbstractTimer;
 import com.geniusgithub.mediaplayer.player.SingleSecondTimer;
+import com.geniusgithub.mediaplayer.util.AlwaysLog;
 
 import java.util.ArrayList;
 import java.util.List;

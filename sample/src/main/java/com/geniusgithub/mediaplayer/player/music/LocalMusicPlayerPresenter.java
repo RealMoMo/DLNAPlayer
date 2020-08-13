@@ -7,9 +7,7 @@ import android.os.Handler;
 import android.os.Message;
 import android.widget.SeekBar;
 
-import com.geniusgithub.common.util.AlwaysLog;
-import com.geniusgithub.common.util.CommonUtil;
-import com.geniusgithub.common.util.FileHelper;
+
 import com.geniusgithub.mediaplayer.AllShareApplication;
 import com.geniusgithub.mediaplayer.component.MediaItemFactory;
 import com.geniusgithub.mediaplayer.component.MediaManager;
@@ -22,6 +20,9 @@ import com.geniusgithub.mediaplayer.player.base.PlayStateCallback;
 import com.geniusgithub.mediaplayer.player.base.Player;
 import com.geniusgithub.mediaplayer.player.music.lrc.LrcDownLoadHelper;
 import com.geniusgithub.mediaplayer.player.music.lrc.MusicUtils;
+import com.geniusgithub.mediaplayer.util.AlwaysLog;
+import com.geniusgithub.mediaplayer.util.CommonUtil;
+import com.geniusgithub.mediaplayer.util.FileHelper;
 
 import java.io.File;
 import java.util.ArrayList;

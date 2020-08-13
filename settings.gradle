@@ -1,5 +1,4 @@
 include ':sample'
-include ':com.geniusgithub.common'
 include ':dlnaLibrary'
 include ':cybergarage-upnp'
 include ':app'

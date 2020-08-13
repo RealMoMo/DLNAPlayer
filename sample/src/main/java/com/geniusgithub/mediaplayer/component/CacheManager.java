@@ -6,8 +6,8 @@ import com.bumptech.glide.Glide;
 import com.bumptech.glide.GlideBuilder;
 import com.bumptech.glide.load.engine.cache.DiskCache;
 import com.bumptech.glide.load.engine.cache.ExternalCacheDiskCacheFactory;
-import com.geniusgithub.common.util.AlwaysLog;
 import com.geniusgithub.mediaplayer.AllShareApplication;
+import com.geniusgithub.mediaplayer.util.AlwaysLog;
 
 public class CacheManager {
     private final static String TAG = AllShareApplication.class.getSimpleName();

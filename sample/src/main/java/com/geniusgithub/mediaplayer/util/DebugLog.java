@@ -1,10 +1,10 @@
-package com.geniusgithub.common.util;
-
-import java.io.File;
-import java.io.IOException;
+package com.geniusgithub.mediaplayer.util;
 
 import android.os.Environment;
 import android.util.Log;
+
+import java.io.File;
+import java.io.IOException;
 
 /**
  * Ideafriend默认的Log打印工具，需要打开Debug开关才能看到。

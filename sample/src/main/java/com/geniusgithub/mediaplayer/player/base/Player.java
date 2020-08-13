@@ -3,8 +3,8 @@ package com.geniusgithub.mediaplayer.player.base;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
 
-import com.geniusgithub.common.util.AlwaysLog;
 import com.geniusgithub.mediaplayer.dlna.control.model.MediaEntry;
+import com.geniusgithub.mediaplayer.util.AlwaysLog;
 
 import java.io.IOException;
 import java.util.ArrayList;

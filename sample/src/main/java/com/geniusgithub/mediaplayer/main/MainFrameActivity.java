@@ -21,13 +21,13 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
-import com.geniusgithub.common.util.AlwaysLog;
 import com.geniusgithub.mediaplayer.R;
 import com.geniusgithub.mediaplayer.activity.AboutActivity;
 import com.geniusgithub.mediaplayer.base.BaseActivity;
 import com.geniusgithub.mediaplayer.component.IToolBar;
 import com.geniusgithub.mediaplayer.component.ToolEntry;
 import com.geniusgithub.mediaplayer.browse.view.BrowserMediaFragment;
+import com.geniusgithub.mediaplayer.util.AlwaysLog;
 import com.google.android.material.tabs.TabLayout;
 
 import java.util.ArrayList;

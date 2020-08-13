@@ -18,12 +18,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.viewpager.widget.ViewPager;
 
-import com.geniusgithub.common.util.AlwaysLog;
 import com.geniusgithub.mediaplayer.R;
 import com.geniusgithub.mediaplayer.base.BaseFragment;
 import com.geniusgithub.mediaplayer.dlna.control.model.MediaItem;
 import com.geniusgithub.mediaplayer.player.photo.PhotoBrowseContact;
 import com.geniusgithub.mediaplayer.player.photo.PhotoBrowsePresenter;
+import com.geniusgithub.mediaplayer.util.AlwaysLog;
 
 import java.util.List;
 

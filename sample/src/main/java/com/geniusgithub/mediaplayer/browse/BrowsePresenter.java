@@ -5,8 +5,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Handler;
 
-import com.geniusgithub.common.util.AlwaysLog;
-import com.geniusgithub.common.util.CommonUtil;
+
 import com.geniusgithub.mediaplayer.AllShareApplication;
 import com.geniusgithub.mediaplayer.browse.BrowseContract.IPresenter;
 import com.geniusgithub.mediaplayer.component.CacheManager;
@@ -26,6 +25,8 @@ import com.geniusgithub.mediaplayer.player.photo.PhotoBrowsePresenter;
 import com.geniusgithub.mediaplayer.player.photo.view.PhotoBrowseActivity;
 import com.geniusgithub.mediaplayer.player.video.VideoPlayePresenter;
 import com.geniusgithub.mediaplayer.player.video.view.VideoPlayerActivity;
+import com.geniusgithub.mediaplayer.util.AlwaysLog;
+import com.geniusgithub.mediaplayer.util.CommonUtil;
 
 import org.cybergarage.upnp.Device;
 

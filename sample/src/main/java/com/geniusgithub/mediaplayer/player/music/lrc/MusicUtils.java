@@ -20,7 +20,8 @@ import android.os.Environment;
 import android.provider.MediaStore;
 import android.util.Log;
 
-import com.geniusgithub.common.util.AlwaysLog;
+
+import com.geniusgithub.mediaplayer.util.AlwaysLog;
 
 import java.io.File;
 import java.io.FileOutputStream;

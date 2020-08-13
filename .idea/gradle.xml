@@ -12,7 +12,6 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/com.geniusgithub.common" />
             <option value="$PROJECT_DIR$/cybergarage-upnp" />
             <option value="$PROJECT_DIR$/dlnaLibrary" />
             <option value="$PROJECT_DIR$/sample" />

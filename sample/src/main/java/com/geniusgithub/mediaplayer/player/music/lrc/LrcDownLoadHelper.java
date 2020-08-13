@@ -1,6 +1,7 @@
 package com.geniusgithub.mediaplayer.player.music.lrc;
 
-import com.geniusgithub.common.util.AlwaysLog;
+
+import com.geniusgithub.mediaplayer.util.AlwaysLog;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

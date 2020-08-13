@@ -12,13 +12,15 @@ import android.graphics.Shader;
 import android.graphics.drawable.ShapeDrawable;
 import android.graphics.drawable.shapes.OvalShape;
 import android.os.Build;
-import androidx.core.view.ViewCompat;
 import android.util.AttributeSet;
 import android.view.animation.LinearInterpolator;
 import android.widget.ImageView;
 
+import androidx.appcompat.widget.AppCompatImageView;
+import androidx.core.view.ViewCompat;
 
-public class ShadowImageView extends ImageView {
+
+public class ShadowImageView extends AppCompatImageView {
 
     private static final int KEY_SHADOW_COLOR = 0x1E000000;
     private static final int FILL_SHADOW_COLOR = 0x3D000000;
@@ -50,12 +52,7 @@ public class ShadowImageView extends ImageView {
         init();
     }
 
-    @TargetApi(Build.VERSION_CODES.LOLLIPOP)
-    @SuppressWarnings("unused")
-    public ShadowImageView(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
-        super(context, attrs, defStyleAttr, defStyleRes);
-        init();
-    }
+
 
     private void init() {
         final float density = getContext().getResources().getDisplayMetrics().density;
@@ -92,7 +89,7 @@ public class ShadowImageView extends ImageView {
     }
 
     private boolean elevationSupported() {
-        return android.os.Build.VERSION.SDK_INT >= 21;
+        return Build.VERSION.SDK_INT >= 21;
     }
 
     @Override
