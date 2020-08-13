@@ -76,12 +76,7 @@ public class MainFrameActivity extends BaseActivity{
 
     }
 
-
-    @Override
-    public boolean onCreateOptionsMenu(final Menu menu) {
-        getMenuInflater().inflate(R.menu.menu_main, menu);
-        return true;
-    }
+    
 
 
     @Override
@@ -91,9 +86,6 @@ public class MainFrameActivity extends BaseActivity{
         switch (id) {
             case android.R.id.home:
                 mMainView.toggleDrawLayout();
-                return true;
-            case R.id.item_setting:
-
                 return true;
         }
 
