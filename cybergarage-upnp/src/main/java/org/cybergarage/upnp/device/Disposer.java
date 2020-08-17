@@ -49,7 +49,8 @@ public class Disposer extends ThreadCore
 	//	Thread
 	////////////////////////////////////////////////
 	
-	public void run() 
+	@Override
+    public void run()
 	{
 		ControlPoint ctrlp = getControlPoint();
 		long monitorInterval = ctrlp.getExpiredDeviceMonitoringInterval() * 1000;

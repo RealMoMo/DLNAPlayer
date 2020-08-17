@@ -52,6 +52,7 @@ public class ThreadCore implements Runnable
 		}
 	}
 	
+	@Override
 	public void run()
 	{
 	}

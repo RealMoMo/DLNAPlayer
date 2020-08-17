@@ -51,7 +51,8 @@ public class Advertiser extends ThreadCore
 	//	Thread
 	////////////////////////////////////////////////
 	
-	public void run() 
+	@Override
+    public void run()
 	{
 		Device dev = getDevice();
 		long leaseTime = dev.getLeaseTime();

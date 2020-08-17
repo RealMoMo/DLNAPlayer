@@ -1279,7 +1279,8 @@ public class ContentDirectory extends ThreadCore implements ActionListener, Quer
 		return contentUpdateInterval;
 	}
 	
-	public void run()
+	@Override
+    public void run()
 	{
 		MediaServer mserver = getMediaServer();
 		StateVariable varSystemUpdateID = mserver.getStateVariable(SYSTEMUPDATEID);
