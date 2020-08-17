@@ -76,7 +76,7 @@ public class MainFrameActivity extends BaseActivity{
 
     }
 
-    
+
 
 
     @Override
@@ -244,7 +244,6 @@ public class MainFrameActivity extends BaseActivity{
                 public void onDrawerOpened(View drawerView) {
                     super.onDrawerOpened(drawerView);
 
-                    AlwaysLog.i(TAG, "onDrawerOpened");
 
                 }
 
@@ -252,7 +251,6 @@ public class MainFrameActivity extends BaseActivity{
                 public void onDrawerClosed(View drawerView) {
                     super.onDrawerClosed(drawerView);
 
-                    AlwaysLog.i(TAG, "onDrawerClosed");
                 }
             };
             mDrawerToggle.syncState();

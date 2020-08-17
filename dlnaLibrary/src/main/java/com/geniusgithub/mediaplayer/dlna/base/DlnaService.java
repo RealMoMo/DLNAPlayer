@@ -141,6 +141,8 @@ public abstract class DlnaService extends Service {
 
 	public static boolean openWifiBrocast(Context context){
 		WifiManager wifiManager=(WifiManager)context.getSystemService(Context.WIFI_SERVICE);
+
+		//android MulticastLock_ amyli的专栏-CSDN博客_multicastlock  https://blog.csdn.net/lixin88/article/details/50707363
 		WifiManager.MulticastLock multicastLock=wifiManager.createMulticastLock("MediaPlayer");
 		if (multicastLock != null){
 			multicastLock.acquire();

@@ -16,6 +16,7 @@ public class ControlStatusChangeBrocastReceiver extends BroadcastReceiver {
 		mListener  = listener;
 	}
 
+	@Override
 	public void onReceive(Context context, Intent intent) {
 		String action = intent.getAction();
 	
