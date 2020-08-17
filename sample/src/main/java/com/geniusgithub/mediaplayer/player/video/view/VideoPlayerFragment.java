@@ -21,8 +21,8 @@ import androidx.annotation.Nullable;
 
 import com.geniusgithub.mediaplayer.R;
 import com.geniusgithub.mediaplayer.base.BaseFragment;
-import com.geniusgithub.mediaplayer.dlna.control.model.MediaItem;
-import com.geniusgithub.mediaplayer.dlna.util.TimeUtil;
+import com.newline.mediaplayer.dlna.control.model.MediaItem;
+import com.newline.mediaplayer.dlna.util.TimeUtil;
 import com.geniusgithub.mediaplayer.player.video.VideoPlayePresenter;
 import com.geniusgithub.mediaplayer.player.video.VideoPlayerContact;
 import com.geniusgithub.mediaplayer.util.AlwaysLog;

@@ -22,7 +22,7 @@ import android.content.Context;
 import android.os.Handler;
 
 import com.geniusgithub.mediaplayer.component.CacheManager;
-import com.geniusgithub.mediaplayer.dlna.control.AllShareProxy;
+import com.newline.mediaplayer.dlna.control.AllShareProxy;
 import com.geniusgithub.mediaplayer.util.AlwaysLog;
 
 import java.util.HashMap;

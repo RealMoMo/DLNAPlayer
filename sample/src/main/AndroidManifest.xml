@@ -101,7 +101,7 @@
         </activity>
 
         <service
-            android:name=".dlna.control.ControlService"
+            android:name="com.newline.mediaplayer.dlna.control.ControlService"
             android:enabled="true"
             >
             <intent-filter>

@@ -12,7 +12,7 @@ import android.widget.SeekBar;
 
 import com.geniusgithub.mediaplayer.component.MediaItemFactory;
 import com.geniusgithub.mediaplayer.component.MediaManager;
-import com.geniusgithub.mediaplayer.dlna.control.model.MediaItem;
+import com.newline.mediaplayer.dlna.control.model.MediaItem;
 import com.geniusgithub.mediaplayer.player.AbstractTimer;
 import com.geniusgithub.mediaplayer.player.CheckDelayTimer;
 import com.geniusgithub.mediaplayer.player.SingleSecondTimer;

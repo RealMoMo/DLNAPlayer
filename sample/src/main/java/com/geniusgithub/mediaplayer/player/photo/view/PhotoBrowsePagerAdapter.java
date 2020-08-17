@@ -15,7 +15,7 @@ import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.bumptech.glide.load.resource.drawable.GlideDrawable;
 import com.bumptech.glide.request.target.ImageViewTarget;
 import com.geniusgithub.mediaplayer.R;
-import com.geniusgithub.mediaplayer.dlna.control.model.MediaItem;
+import com.newline.mediaplayer.dlna.control.model.MediaItem;
 import com.geniusgithub.mediaplayer.util.AlwaysLog;
 
 import java.util.List;

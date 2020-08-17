@@ -12,7 +12,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.geniusgithub.mediaplayer.R;
 import com.geniusgithub.mediaplayer.base.adapter.OnItemClickListener;
-import com.geniusgithub.mediaplayer.dlna.control.model.MediaItem;
+import com.newline.mediaplayer.dlna.control.model.MediaItem;
 
 import java.util.ArrayList;
 import java.util.List;

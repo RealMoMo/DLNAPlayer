@@ -1,6 +1,6 @@
 package com.geniusgithub.mediaplayer.player.base;
 
-import com.geniusgithub.mediaplayer.dlna.control.model.MediaEntry;
+import com.newline.mediaplayer.dlna.control.model.MediaEntry;
 
 import java.util.ArrayList;
 import java.util.List;

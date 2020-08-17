@@ -5,7 +5,7 @@ import android.content.Context;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.geniusgithub.mediaplayer.base.adapter.BaseListAdapter;
-import com.geniusgithub.mediaplayer.dlna.control.model.MediaItem;
+import com.newline.mediaplayer.dlna.control.model.MediaItem;
 
 import java.util.List;
 

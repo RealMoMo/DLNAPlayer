@@ -1,7 +1,7 @@
 package com.geniusgithub.mediaplayer.component;
 
-import com.geniusgithub.mediaplayer.dlna.control.model.MediaItem;
-import com.geniusgithub.mediaplayer.dlna.util.UpnpUtil;
+import com.newline.mediaplayer.dlna.control.model.MediaItem;
+import com.newline.mediaplayer.dlna.util.UpnpUtil;
 
 import java.util.ArrayList;
 import java.util.List;
